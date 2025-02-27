@@ -260,7 +260,7 @@ def main():
         max_epochs=5,
         callbacks=[checkpoint_callback, progress_bar],
         log_every_n_steps=10,
-        limit_train_batches=100000,
+        limit_train_batches=10000,
     )
     
     # Resume from checkpoint if exists
